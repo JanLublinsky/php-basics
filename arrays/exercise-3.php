@@ -6,6 +6,5 @@ $numbers = [
     1456, 2265, 1457, 2456
 ];
 
-echo "Enter the value to search for: ";
-
 //todo check if an array contains a value user entered
+echo in_array(readline("Enter the value to search for: "), $numbers) ? "True\n" : "False\n";
