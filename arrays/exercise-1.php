@@ -7,10 +7,23 @@ $numbers = [
 ];
 
 //todo
-echo "Original numeric array: ";
+echo "Original numeric array: \n";
+
+foreach($numbers as $number)
+{
+    echo $number.', ';
+}
+echo "\n";
 
 //todo
-echo "Sorted numeric array: ";
+echo "Sorted numeric array: \n";
+
+sort($numbers);
+foreach($numbers as $number)
+{
+    echo $number.', ';
+}
+echo "\n";
 
 $words = [
     "Java",
@@ -22,7 +35,20 @@ $words = [
 ];
 
 //todo
-echo "Original string array: ";
+echo "Original string array: \n";
+
+foreach($words as $word)
+{
+    echo $word.', ';
+}
+echo "\n";
 
 //todo
-echo "Sorted string array: ";
+echo "Sorted string array: \n";
+
+sort($words);
+foreach($words as $word)
+{
+    echo $word.', ';
+}
+echo "\n";
