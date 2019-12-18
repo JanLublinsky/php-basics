@@ -228,7 +228,7 @@ Benson, $17.50
 
 ## Exercise #10
 
-See [video-store.php](./video-store.php)
+See [video-store.php](exercise-10/video-store.php)
 
 The goal of this optional exercise is to design and implement a simple inventory control system 
 for a small video rental store. Define least two classes: a class Video to model a video
